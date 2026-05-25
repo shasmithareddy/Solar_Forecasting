@@ -227,6 +227,3 @@ If you restart the kernel, re-run from Block 4 onwards before running Blocks 5�
 
 ---
 
-## 👩‍💻 Author
-
-**Shasmitha Reddy** — Solar Radiation Forecasting Research Project
