@@ -74,6 +74,9 @@ jupyter notebook model_final.ipynb
 
 ## 📊 Dataset
 
+
+The original raw dataset is the NASA Dataset for Riyadh, published on IEEE DataPort by Farrukh Hafeez (DOI: 10.21227/mrmj-vp45). It contains meteorological variables related to solar power generation — including solar irradiance, air temperature, wind speed, and humidity for Riyadh, Saudi Arabia — collected via NASA satellite imagery and ground stations, with the goal of improving solar radiation forecasting models under varying climatic conditions. The file approah_1_fe_datset.csv (also hosted in the same IEEE DataPort repository) is a feature-engineered version of that raw data, extended to 33 columns across 24,913 records by adding lag features, rolling statistics, interaction terms, a Fourier transform of solar radiation, and datetime components. The file reduced_dataset.csv is a further feature-selected version of that engineered dataset, retaining only 25 columns — dropping Datetime, raw Precipitation, Temp_Humidity_Interaction, Precipitation_Rolling_Mean, and all four rolling standard deviation features — while keeping row count and all other columns identical. Note that Month and Day of Week are typed as float64 in the reduced file rather than int64 as in the engineered version. Neither file contains null values. ieee-dataport
+
 **File required:** `reduced_dataset.csv`
 
 - **Shape:** 24,913 rows × 25 columns
