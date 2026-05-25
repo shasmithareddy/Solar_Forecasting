@@ -1,4 +1,4 @@
-# ☀️ Solar Radiation Forecasting — ML/DL Hybrid Ensemble
+# Solar Radiation Forecasting — ML/DL Hybrid Ensemble
 
 A research pipeline for predicting **all-sky solar radiation** using hybrid deep learning + machine learning ensemble models, with Optuna hyperparameter tuning, SHAP explainability, and statistical significance testing.
 
